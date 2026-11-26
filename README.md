@@ -18,16 +18,3 @@ A menu-driven **Student Record Management System** written in C using a **singly
 
 ---
 
-## Project Structure
-
-```text
-.
-├── student.h       # Struct definition, macros, and function prototypes
-├── stud_main.c     # Main menu loop and program control flow
-├── stud_add.c      # Add new student record with smallest available roll number
-├── stud_del.c      # Delete student record by roll number or name
-├── stud_show.c     # Display student records in tabular format
-├── stud_mod.c      # Search and modify student records
-├── stud_save.c     # Save records to and load records from student.dat
-├── student.dat     # Binary/data file storing saved student records (generated at runtime)
-└── README.md       # Project documentation
